@@ -8,4 +8,9 @@
   --title-color: #11443F;
   --text-color: #5B7B78;
   --body-color: #F5FFFE;
+  /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+  --biggest-font-size: 3rem;
+  --big-font-size: 1.25rem;
+  --normal-font-size: .938rem;
 }
