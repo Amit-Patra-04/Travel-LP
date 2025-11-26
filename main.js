@@ -13,3 +13,19 @@ const showMenu = (toggleId, navId) =>{
 }
 
 showMenu('nav-toggle','nav-menu')
+
+/*==================== SWIPER JS ====================*/
+let galleryThumbs = new Swiper('.gallery-thumbs', {
+    spaceBetween: 0,
+    slidesPerView: 0,
+})
+
+let galleryTop = new Swiper('.gallery-top', {
+    effect: 'fade',
+    loop: true,
+
+    thumbs: {
+      swiper: galleryThumbs
+    }
+})
+
