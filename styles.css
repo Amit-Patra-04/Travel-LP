@@ -267,3 +267,18 @@ img {
   width: 45px;
   height: 45px;
 }
+
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .bd-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .controls__container {
+    column-gap: .25rem;
+  }
+  .islands__popup-video {
+    width: 230px;
+    height: 100px;
+  }
+}
