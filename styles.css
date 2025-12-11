@@ -349,3 +349,10 @@ img {
     padding-right: 11rem;
   }
 }
+
+/* For tall screens on mobiles y desktop*/
+@media screen and (min-height: 721px) {
+  .islands {
+    height: 640px;
+  }
+}
